@@ -39,7 +39,7 @@ import net.mcreator.life_statues.LifeStatuesModElements;
 public class OverworldStriderEntity extends LifeStatuesModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(0.6f, 1.8f)).build("overworld_strider").setRegistryName("overworld_strider");
+			.size(0.6f, 1.95f)).build("overworld_strider").setRegistryName("overworld_strider");
 
 	public OverworldStriderEntity(LifeStatuesModElements instance) {
 		super(instance, 38);
