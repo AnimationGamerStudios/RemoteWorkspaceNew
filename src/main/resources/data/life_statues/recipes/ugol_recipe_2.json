@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_block"
+    },
+    "1": {
+      "item": "life_statues:statue_gem"
+    },
+    "2": {
+      "item": "minecraft:diamond_block"
+    },
+    "3": {
+      "item": "life_statues:statue_gem"
+    },
+    "4": {
+      "item": "life_statues:multi_dye"
+    },
+    "5": {
+      "item": "life_statues:statue_gem"
+    },
+    "6": {
+      "item": "minecraft:diamond_block"
+    },
+    "7": {
+      "item": "life_statues:statue_gem"
+    },
+    "8": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "life_statues:ultimate_gem_of_life",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "life_statues:copium_ingot"
+    },
+    "1": {
+      "item": "life_statues:copium_ingot"
+    },
+    "2": {
+      "item": "life_statues:copium_ingot"
+    },
+    "3": {
+      "item": "life_statues:copium_ingot"
+    },
+    "5": {
+      "item": "life_statues:copium_ingot"
+    }
+  },
+  "result": {
+    "item": "life_statues:copium_armor_helmet",
+    "count": 1
+  }
+}

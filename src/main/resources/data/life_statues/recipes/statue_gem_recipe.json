@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "life_statues:copium_ingot"
+    },
+    "1": {
+      "item": "life_statues:living_soul"
+    },
+    "2": {
+      "item": "life_statues:copium_ingot"
+    },
+    "3": {
+      "item": "life_statues:living_soul"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "life_statues:living_soul"
+    },
+    "6": {
+      "item": "life_statues:copium_ingot"
+    },
+    "7": {
+      "item": "life_statues:living_soul"
+    },
+    "8": {
+      "item": "life_statues:copium_ingot"
+    }
+  },
+  "result": {
+    "item": "life_statues:statue_gem",
+    "count": 1
+  }
+}

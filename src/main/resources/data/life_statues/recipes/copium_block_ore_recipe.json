@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "life_statues:copium_block"
+    }
+  ],
+  "result": {
+    "item": "life_statues:copium_ingot",
+    "count": 9
+  }
+}

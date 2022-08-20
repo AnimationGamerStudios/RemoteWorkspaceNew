@@ -1,0 +1,30 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "entitykiller",
+    "customModelName": "Normal",
+    "name": "Entity Killer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LifeStatuesTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 100000.0,
+    "attackSpeed": 100.0,
+    "enchantability": 100000,
+    "damageVsEntity": 100000.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntitySwing": {
+      "name": "EntityKillerEntitySwingsItem"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "life_statues:copium_ingot"
+    },
+    "1": {
+      "item": "life_statues:copium_ingot"
+    },
+    "2": {
+      "item": "life_statues:copium_ingot"
+    },
+    "3": {
+      "item": "life_statues:copium_ingot"
+    },
+    "4": {
+      "item": "life_statues:copium_ingot"
+    },
+    "5": {
+      "item": "life_statues:copium_ingot"
+    },
+    "6": {
+      "item": "life_statues:copium_ingot"
+    },
+    "7": {
+      "item": "life_statues:copium_ingot"
+    },
+    "8": {
+      "item": "life_statues:copium_ingot"
+    }
+  },
+  "result": {
+    "item": "life_statues:copium_block",
+    "count": 1
+  }
+}

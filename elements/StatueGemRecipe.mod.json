@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CopiumIngot"
+      },
+      {
+        "value": "CUSTOM:LivingSoul"
+      },
+      {
+        "value": "CUSTOM:CopiumIngot"
+      },
+      {
+        "value": "CUSTOM:LivingSoul"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:LivingSoul"
+      },
+      {
+        "value": "CUSTOM:CopiumIngot"
+      },
+      {
+        "value": "CUSTOM:LivingSoul"
+      },
+      {
+        "value": "CUSTOM:CopiumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StatueGem"
+    },
+    "name": "statue_gem_recipe",
+    "namespace": "mod"
+  }
+}

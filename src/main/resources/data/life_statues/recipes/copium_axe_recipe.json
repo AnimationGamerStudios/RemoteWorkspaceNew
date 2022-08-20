@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "life_statues:copium_ingot"
+    },
+    "1": {
+      "item": "life_statues:copium_ingot"
+    },
+    "2": {
+      "item": "life_statues:copium_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "life_statues:copium_axe",
+    "count": 1
+  }
+}

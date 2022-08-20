@@ -1,0 +1,11 @@
+{
+  "entitykiller.slice": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "life_statues:ekslice",
+        "stream": false
+      }
+    ]
+  }
+}

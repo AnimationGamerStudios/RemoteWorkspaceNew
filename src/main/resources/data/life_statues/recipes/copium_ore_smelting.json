@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "life_statues:copium_ore"
+  },
+  "result": {
+    "item": "life_statues:copium_ingot"
+  }
+}
