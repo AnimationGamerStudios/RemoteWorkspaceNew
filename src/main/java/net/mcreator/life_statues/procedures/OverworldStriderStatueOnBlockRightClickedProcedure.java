@@ -18,37 +18,37 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.life_statues.item.StatueGemItem;
-import net.mcreator.life_statues.entity.HandsyEntity;
+import net.mcreator.life_statues.entity.OverworldStriderEntity;
 import net.mcreator.life_statues.LifeStatuesMod;
 
 import java.util.Map;
 
-public class HandsyStatueOnBlockRightClickedProcedure {
+public class OverworldStriderStatueOnBlockRightClickedProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				LifeStatuesMod.LOGGER.warn("Failed to load dependency world for procedure HandsyStatueOnBlockRightClicked!");
+				LifeStatuesMod.LOGGER.warn("Failed to load dependency world for procedure OverworldStriderStatueOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				LifeStatuesMod.LOGGER.warn("Failed to load dependency x for procedure HandsyStatueOnBlockRightClicked!");
+				LifeStatuesMod.LOGGER.warn("Failed to load dependency x for procedure OverworldStriderStatueOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				LifeStatuesMod.LOGGER.warn("Failed to load dependency y for procedure HandsyStatueOnBlockRightClicked!");
+				LifeStatuesMod.LOGGER.warn("Failed to load dependency y for procedure OverworldStriderStatueOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				LifeStatuesMod.LOGGER.warn("Failed to load dependency z for procedure HandsyStatueOnBlockRightClicked!");
+				LifeStatuesMod.LOGGER.warn("Failed to load dependency z for procedure OverworldStriderStatueOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				LifeStatuesMod.LOGGER.warn("Failed to load dependency entity for procedure HandsyStatueOnBlockRightClicked!");
+				LifeStatuesMod.LOGGER.warn("Failed to load dependency entity for procedure OverworldStriderStatueOnBlockRightClicked!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -73,7 +73,7 @@ public class HandsyStatueOnBlockRightClickedProcedure {
 						SoundCategory.AMBIENT, (float) 1, (float) 1, false);
 			}
 			if (world instanceof ServerWorld) {
-				Entity entityToSpawn = new HandsyEntity.CustomEntity(HandsyEntity.entity, (World) world);
+				Entity entityToSpawn = new OverworldStriderEntity.CustomEntity(OverworldStriderEntity.entity, (World) world);
 				entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 				if (entityToSpawn instanceof MobEntity)
 					((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
