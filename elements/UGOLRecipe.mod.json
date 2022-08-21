@@ -13,7 +13,7 @@
         "value": "Blocks.DIAMOND_BLOCK"
       },
       {
-        "value": "CUSTOM:StatueGem"
+        "value": "Items.NETHER_STAR"
       },
       {
         "value": "Blocks.NETHERITE_BLOCK"
@@ -31,7 +31,7 @@
         "value": "Blocks.NETHERITE_BLOCK"
       },
       {
-        "value": "CUSTOM:StatueGem"
+        "value": "Items.NETHER_STAR"
       },
       {
         "value": "Blocks.DIAMOND_BLOCK"
