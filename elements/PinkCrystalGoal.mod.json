@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Pink Crystal Goal",
+    "achievementName": "Pink Crystals?",
     "achievementDescription": "Get a copium crystal",
     "achievementIcon": {
       "value": "CUSTOM:CopiumCrystal"
@@ -11,12 +11,12 @@
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": false,
+    "hideIfNotCompleted": true,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
-    "rewardXP": 0,
-    "achievementType": "task",
+    "rewardXP": 100,
+    "achievementType": "challenge",
     "parent": {
       "value": "CUSTOM:StatueGemGoal"
     },

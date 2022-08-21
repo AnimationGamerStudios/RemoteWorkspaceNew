@@ -9,10 +9,10 @@
     "description": {
       "translate": "advancements.pink_crystal_goal.descr"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "pink_crystal_goal": {
@@ -29,6 +29,9 @@
         ]
       }
     }
+  },
+  "rewards": {
+    "experience": 100
   },
   "parent": "life_statues:statue_gem_goal"
 }

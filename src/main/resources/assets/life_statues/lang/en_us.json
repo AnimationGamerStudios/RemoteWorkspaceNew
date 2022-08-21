@@ -1,7 +1,7 @@
 {
-  "entity.life_statues.handsy": "Handsy",
-  "item.life_statues.copium_armor_helmet": "Copium Helmet",
   "item.life_statues.netherite_stick": "Netherite Stick",
+  "item.life_statues.copium_armor_helmet": "Copium Helmet",
+  "entity.life_statues.handsy": "Handsy",
   "advancements.statue_gem_goal.descr": "Obtain a Statue Gem",
   "item.life_statues.living_soul": "Living Soul",
   "block.life_statues.handsy_statue": "Handsy Statue",
@@ -25,7 +25,7 @@
   "block.life_statues.copium_block": "Block of Copium",
   "item.life_statues.entity_killer": "Entity Killer",
   "item.life_statues.breakable_logo_broken_unused": "Breakable Logo Broken Unused",
-  "advancements.pink_crystal_goal.title": "Pink Crystal Goal",
+  "advancements.pink_crystal_goal.title": "Pink Crystals?",
   "item.life_statues.soul_fragment": "Soul Fragment",
   "item.life_statues.copium_armor_chestplate": "Copium Chestplate",
   "item.life_statues.copium_shovel": "Copium Shovel",
