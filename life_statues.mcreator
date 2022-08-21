@@ -393,6 +393,42 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "copium_crystal"
+    },
+    {
+      "name": "CopiumCrystalOreBlock",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copium_crystal_ore_block"
+    },
+    {
+      "name": "CopiumOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copium_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -415,15 +451,16 @@
       "item.life_statues.living_soul": "Living Soul",
       "block.life_statues.handsy_statue": "Handsy Statue",
       "item.life_statues.copium_axe": "Copium Axe",
-      "item.life_statues.overworld_strider_spawn_egg": "Overworld Strider Spawn Egg",
-      "item.life_statues.copium_armor_boots": "Copium Boots",
       "item.life_statues.handsy_spawn_egg": "Handsy Spawn Egg",
+      "item.life_statues.copium_armor_boots": "Copium Boots",
+      "item.life_statues.overworld_strider_spawn_egg": "Overworld Strider Spawn Egg",
       "item.life_statues.copium_ingot": "Copium",
       "item.life_statues.copium_sword": "Copium Sword",
       "subtitles.entitykiller.slice": "",
       "item.life_statues.ultimate_gem_of_life": "Ultimate Gem Of Life",
       "item.life_statues.copium_armor_leggings": "Copium Leggings",
       "item.life_statues.copium_crystal": "Copium Crystal",
+      "block.life_statues.copium_crystal_ore_block": "Copium Crystal Ore Block",
       "advancements.statue_gem_goal.title": "Green Diamond?",
       "block.life_statues.copium_ore": "Copium Ore",
       "item.life_statues.copium_pickaxe": "Copium Pickaxe",
