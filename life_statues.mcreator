@@ -429,6 +429,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "BreakableLogoBrokenUnused",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breakable_logo_broken_unused"
     }
   ],
   "variable_elements": [],
@@ -468,6 +476,7 @@
       "item.life_statues.multi_dye": "Multi Dye",
       "block.life_statues.copium_block": "Block of Copium",
       "item.life_statues.entity_killer": "Entity Killer",
+      "item.life_statues.breakable_logo_broken_unused": "Breakable Logo Broken Unused",
       "item.life_statues.soul_fragment": "Soul Fragment",
       "item.life_statues.copium_armor_chestplate": "Copium Chestplate",
       "item.life_statues.copium_shovel": "Copium Shovel",

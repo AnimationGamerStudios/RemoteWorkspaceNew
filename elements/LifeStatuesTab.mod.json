@@ -4,7 +4,7 @@
   "definition": {
     "name": "Life Statues",
     "icon": {
-      "value": "CUSTOM:StatueGem"
+      "value": "CUSTOM:BreakableLogoBrokenUnused"
     },
     "showSearch": true
   }
