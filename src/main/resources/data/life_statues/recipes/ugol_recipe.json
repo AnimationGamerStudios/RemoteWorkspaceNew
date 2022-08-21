@@ -10,7 +10,7 @@
       "item": "minecraft:diamond_block"
     },
     "1": {
-      "item": "life_statues:statue_gem"
+      "item": "minecraft:nether_star"
     },
     "2": {
       "item": "minecraft:netherite_block"
@@ -28,7 +28,7 @@
       "item": "minecraft:netherite_block"
     },
     "7": {
-      "item": "life_statues:statue_gem"
+      "item": "minecraft:nether_star"
     },
     "8": {
       "item": "minecraft:diamond_block"
