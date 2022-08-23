@@ -493,6 +493,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "OverworldStriderStatue",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_strider_statue"
     }
   ],
   "variable_elements": [],
@@ -501,6 +509,14 @@
       "name": "entitykiller.slice",
       "files": [
         "ekslice"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mob.crunch",
+      "files": [
+        "crunch"
       ],
       "category": "master",
       "subtitle": ""
@@ -541,6 +557,8 @@
       "advancements.pink_crystal_goal.descr": "Get a copium crystal",
       "item.life_statues.statue_gem": "Statue Gem",
       "entity.life_statues.overworld_strider": "Overworld Strider",
+      "subtitles.mob.crunch": "",
+      "block.life_statues.overworld_strider_statue": "Overworld Strider Statue",
       "itemGroup.tablife_statues_tab": "Life Statues"
     }
   },

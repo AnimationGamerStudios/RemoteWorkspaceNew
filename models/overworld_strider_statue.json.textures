@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "m_0": "overworld_strider_statue"
+        "0": "overworld_strider_statue"
       },
       "name": "default"
     }
