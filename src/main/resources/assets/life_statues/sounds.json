@@ -7,14 +7,5 @@
         "stream": false
       }
     ]
-  },
-  "mob.crunch": {
-    "category": "master",
-    "sounds": [
-      {
-        "name": "life_statues:crunch",
-        "stream": false
-      }
-    ]
   }
 }
