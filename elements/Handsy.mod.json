@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Handsy",
     "mobLabel": "",
-    "mobModelName": "Biped",
-    "mobModelTexture": "netherite_ingot_je1_be2.png",
+    "mobModelName": "Modelcustom_model",
+    "mobModelTexture": "handsytexture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
