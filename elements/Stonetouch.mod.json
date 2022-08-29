@@ -1,0 +1,33 @@
+{
+  "_fv": 33,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Stonetouch",
+    "type": "WEAPON",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 256,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "SHARPNESS"
+      },
+      {
+        "value": "MENDING"
+      }
+    ],
+    "compatibleItems": [
+      {
+        "value": "Items.STONE_SWORD"
+      },
+      {
+        "value": "CUSTOM:CopiumSword"
+      }
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": false
+  }
+}

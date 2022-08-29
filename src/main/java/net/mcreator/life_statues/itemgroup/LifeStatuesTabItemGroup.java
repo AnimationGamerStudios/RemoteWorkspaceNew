@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.life_statues.item.StatueGemItem;
+import net.mcreator.life_statues.item.BreakableLogoBrokenUnusedItem;
 import net.mcreator.life_statues.LifeStatuesModElements;
 
 @LifeStatuesModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class LifeStatuesTabItemGroup extends LifeStatuesModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(StatueGemItem.block);
+				return new ItemStack(BreakableLogoBrokenUnusedItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "life_statues:blocks/customizationtooltexture_top",
+    "particle": "life_statues:blocks/customizationtooltexture_top"
+  }
+}

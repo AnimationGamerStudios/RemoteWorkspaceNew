@@ -29,19 +29,26 @@ import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.life_statues.procedures.CopiumOreBlockDestroyedByPlayerProcedure;
 import net.mcreator.life_statues.itemgroup.LifeStatuesTabItemGroup;
 import net.mcreator.life_statues.item.CopiumIngotItem;
 import net.mcreator.life_statues.LifeStatuesModElements;
 
+import java.util.stream.Stream;
 import java.util.Random;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 @LifeStatuesModElements.ModElement.Tag
 public class CopiumOreBlock extends LifeStatuesModElements.ModElement {
@@ -79,6 +86,20 @@ public class CopiumOreBlock extends LifeStatuesModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(CopiumIngotItem.block));
+		}
+
+		@Override
+		public boolean removedByPlayer(BlockState blockstate, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, FluidState fluid) {
+			boolean retval = super.removedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+
+			CopiumOreBlockDestroyedByPlayerProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			return retval;
 		}
 	}
 
