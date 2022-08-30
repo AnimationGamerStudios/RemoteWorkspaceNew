@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "life_statues:blocks/customizationtooltexture_top",
-    "particle": "life_statues:blocks/customizationtooltexture_top"
+    "down": "life_statues:blocks/customizationtable_bottom",
+    "up": "life_statues:blocks/customizationtooltexture_top",
+    "north": "life_statues:blocks/customizationtooltexture_top",
+    "east": "life_statues:blocks/customizationtooltexture_top",
+    "south": "life_statues:blocks/customizationtooltexture_top",
+    "west": "life_statues:blocks/customizationtooltexture_top",
+    "particle": "life_statues:blocks/customizationtable_bottom"
   }
 }
