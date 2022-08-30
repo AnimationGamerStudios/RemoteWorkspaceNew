@@ -48,6 +48,8 @@ public class LifeStatuesModElements {
 	public LifeStatuesModElements() {
 		sounds.put(new ResourceLocation("life_statues", "entitykiller.slice"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("life_statues", "entitykiller.slice")));
+		sounds.put(new ResourceLocation("life_statues", "mob.crunch"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("life_statues", "mob.crunch")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("life_statues").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
