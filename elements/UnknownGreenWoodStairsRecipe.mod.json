@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:UnknownGreenWoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnknownGreenWoodPlanks"
+      },
+      {
+        "value": "CUSTOM:UnknownGreenWoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnknownGreenWoodPlanks"
+      },
+      {
+        "value": "CUSTOM:UnknownGreenWoodPlanks"
+      },
+      {
+        "value": "CUSTOM:UnknownGreenWoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnknownGreenWoodStairs"
+    },
+    "name": "unknown_green_wood_stairs_recipe",
+    "namespace": "mod"
+  }
+}

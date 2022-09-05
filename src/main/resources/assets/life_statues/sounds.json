@@ -16,5 +16,32 @@
         "stream": false
       }
     ]
+  },
+  "statue_detector.error": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "life_statues:lifestatues_statuedetectorerror",
+        "stream": false
+      }
+    ]
+  },
+  "statue_detector.error2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "life_statues:lifestatues_statuedetectorerror2",
+        "stream": false
+      }
+    ]
+  },
+  "statue_detector.beep": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "life_statues:lifestatues_statuedetectorbeep",
+        "stream": false
+      }
+    ]
   }
 }

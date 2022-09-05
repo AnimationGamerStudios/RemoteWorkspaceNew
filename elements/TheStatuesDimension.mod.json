@@ -1,0 +1,42 @@
+{
+  "_fv": 33,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "badlands"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.PLANKS#5"
+    },
+    "fluidBlock": {
+      "value": "Blocks.BEDROCK"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:UnknownGreenWoodStairs"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "The Statues Dimension Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "copium_crystal",
+    "portalTexture": "portalblock",
+    "enablePortal": true
+  }
+}
