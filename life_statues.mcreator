@@ -763,8 +763,8 @@
   ],
   "language_map": {
     "en_us": {
-      "entity.life_statues.handsy": "Handsy",
       "item.life_statues.netherite_stick": "Netherite Stick",
+      "entity.life_statues.handsy": "Handsy",
       "advancements.statue_gem_goal.descr": "Obtain a Statue Gem",
       "item.life_statues.living_soul": "Living Soul",
       "block.life_statues.unknown_green_wood_button": "Unknown Green Wood Button",
@@ -772,8 +772,8 @@
       "item.life_statues.copium_ingot": "Copium",
       "item.life_statues.ultimate_gem_of_life": "Ultimate Gem Of Life",
       "item.life_statues.copium_armor_leggings": "Copium Leggings",
-      "subtitles.statue_detector.error2": "",
       "advancements.statue_gem_goal.title": "Green Diamond?",
+      "subtitles.statue_detector.error2": "",
       "item.life_statues.copium_hoe": "Copium Hoe",
       "block.life_statues.copium_block": "Block of Copium",
       "item.life_statues.entity_killer": "Entity Killer",
