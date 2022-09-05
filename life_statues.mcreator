@@ -501,6 +501,221 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "statue_customization_workbench"
+    },
+    {
+      "name": "UnknownGreenWoodWood",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_wood"
+    },
+    {
+      "name": "UnknownGreenWoodLog",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_log"
+    },
+    {
+      "name": "UnknownGreenWoodPlanks",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_planks"
+    },
+    {
+      "name": "UnknownGreenWoodLeaves",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_leaves"
+    },
+    {
+      "name": "UnknownGreenWoodStairs",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_stairs"
+    },
+    {
+      "name": "UnknownGreenWoodSlab",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_slab"
+    },
+    {
+      "name": "UnknownGreenWoodFence",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_fence"
+    },
+    {
+      "name": "UnknownGreenWoodFenceGate",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_fence_gate"
+    },
+    {
+      "name": "UnknownGreenWoodPressurePlate",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_pressure_plate"
+    },
+    {
+      "name": "UnknownGreenWoodButton",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_button"
+    },
+    {
+      "name": "UnknownGreenWoodItemsTag",
+      "type": "tag",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_items_tag"
+    },
+    {
+      "name": "UnknownGreenWoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_wood_recipe"
+    },
+    {
+      "name": "UnknownGreenWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_planks_recipe"
+    },
+    {
+      "name": "UnknownGreenWoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_stairs_recipe"
+    },
+    {
+      "name": "UnknownGreenWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_slab_recipe"
+    },
+    {
+      "name": "UnknownGreenWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_fence_recipe"
+    },
+    {
+      "name": "UnknownGreenWoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_fence_gate_recipe"
+    },
+    {
+      "name": "UnknownGreenWoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_pressure_plate_recipe"
+    },
+    {
+      "name": "UnknownGreenWoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_button_recipe"
+    },
+    {
+      "name": "UnknownGreenWoodStickRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_green_wood_stick_recipe"
+    },
+    {
+      "name": "TSDPortalBlock",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsd_portal_block"
+    },
+    {
+      "name": "TheStatuesDimension",
+      "type": "dimension",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_statues_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "StatueDetector",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue_detector"
+    },
+    {
+      "name": "StatueDetectorRightclicked",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue_detector_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -520,47 +735,87 @@
       ],
       "category": "master",
       "subtitle": ""
+    },
+    {
+      "name": "statue_detector.error",
+      "files": [
+        "lifestatues_statuedetectorerror"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "statue_detector.error2",
+      "files": [
+        "lifestatues_statuedetectorerror2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "statue_detector.beep",
+      "files": [
+        "lifestatues_statuedetectorbeep"
+      ],
+      "category": "master",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "entity.life_statues.handsy": "Handsy",
-      "item.life_statues.copium_armor_helmet": "Copium Helmet",
       "item.life_statues.netherite_stick": "Netherite Stick",
       "advancements.statue_gem_goal.descr": "Obtain a Statue Gem",
       "item.life_statues.living_soul": "Living Soul",
-      "block.life_statues.handsy_statue": "Handsy Statue",
-      "item.life_statues.copium_axe": "Copium Axe",
-      "item.life_statues.handsy_spawn_egg": "Handsy Spawn Egg",
+      "block.life_statues.unknown_green_wood_button": "Unknown Green Wood Button",
       "item.life_statues.copium_armor_boots": "Copium Boots",
-      "item.life_statues.overworld_strider_spawn_egg": "Overworld Strider Spawn Egg",
       "item.life_statues.copium_ingot": "Copium",
-      "item.life_statues.copium_sword": "Copium Sword",
-      "subtitles.entitykiller.slice": "",
       "item.life_statues.ultimate_gem_of_life": "Ultimate Gem Of Life",
       "item.life_statues.copium_armor_leggings": "Copium Leggings",
-      "item.life_statues.copium_crystal": "Copium Crystal",
-      "block.life_statues.copium_crystal_ore_block": "Copium Crystal Ore Block",
+      "subtitles.statue_detector.error2": "",
       "advancements.statue_gem_goal.title": "Green Diamond?",
-      "block.life_statues.copium_ore": "Copium Ore",
-      "item.life_statues.copium_pickaxe": "Copium Pickaxe",
       "item.life_statues.copium_hoe": "Copium Hoe",
-      "item.life_statues.multi_dye": "Multi Dye",
-      "enchantment.life_statues.stonetouch": "Stonetouch",
       "block.life_statues.copium_block": "Block of Copium",
       "item.life_statues.entity_killer": "Entity Killer",
       "item.life_statues.breakable_logo_broken_unused": "Breakable Logo Broken Unused",
+      "block.life_statues.unknown_green_wood_wood": "UnknownGreenWood Wood",
+      "subtitles.statue_detector.beep": "",
+      "block.life_statues.tsd_portal_block": "Portal Block",
+      "block.life_statues.statue_customization_workbench": "Statue Customization Workbench",
+      "advancements.pink_crystal_goal.descr": "Get a copium crystal",
+      "block.life_statues.unknown_green_wood_slab": "UnknownGreenWood Slab",
+      "block.life_statues.unknown_green_wood_pressure_plate": "UnknownGreenWood Pressure Plate",
+      "itemGroup.tablife_statues_tab": "Life Statues",
+      "item.life_statues.copium_armor_helmet": "Copium Helmet",
+      "block.life_statues.handsy_statue": "Handsy Statue",
+      "block.life_statues.unknown_green_wood_planks": "Unknown Green Wood Planks",
+      "item.life_statues.copium_axe": "Copium Axe",
+      "subtitles.statue_detector.error": "",
+      "block.life_statues.unknown_green_wood_fence_gate": "UnknownGreenWood Fence Gate",
+      "item.life_statues.handsy_spawn_egg": "Handsy Spawn Egg",
+      "item.life_statues.overworld_strider_spawn_egg": "Overworld Strider Spawn Egg",
+      "item.life_statues.copium_sword": "Copium Sword",
+      "subtitles.entitykiller.slice": "",
+      "block.life_statues.unknown_green_wood_fence": "UnknownGreenWood Fence",
+      "block.life_statues.unknown_green_wood_log": "Unknown Green Wood Log",
+      "item.life_statues.copium_crystal": "Copium Crystal",
+      "block.life_statues.copium_crystal_ore_block": "Copium Crystal Ore Block",
+      "block.life_statues.copium_ore": "Copium Ore",
+      "item.life_statues.copium_pickaxe": "Copium Pickaxe",
+      "item.life_statues.multi_dye": "Multi Dye",
+      "item.life_statues.the_statues_dimension": "The Statues Dimension Portal Igniter",
+      "enchantment.life_statues.stonetouch": "Stonetouch",
+      "block.life_statues.unknown_green_wood_stairs": "Unknown Green Wood Stairs",
       "advancements.pink_crystal_goal.title": "Pink Crystals?",
       "item.life_statues.soul_fragment": "Soul Fragment",
       "item.life_statues.copium_armor_chestplate": "Copium Chestplate",
-      "block.life_statues.statue_customization_workbench": "Statue Customization Workbench",
       "item.life_statues.copium_shovel": "Copium Shovel",
-      "advancements.pink_crystal_goal.descr": "Get a copium crystal",
-      "item.life_statues.statue_gem": "Statue Gem",
+      "item.life_statues.statue_detector": "Statue Detector",
       "entity.life_statues.overworld_strider": "Overworld Strider",
+      "item.life_statues.statue_gem": "Statue Gem",
       "subtitles.mob.crunch": "",
-      "block.life_statues.overworld_strider_statue": "Overworld Strider Statue",
-      "itemGroup.tablife_statues_tab": "Life Statues"
+      "block.life_statues.unknown_green_wood_leaves": "Unknown Green Wood Leaves",
+      "block.life_statues.overworld_strider_statue": "Overworld Strider Statue"
     }
   },
   "foldersRoot": {

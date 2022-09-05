@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "life_statues:blocks/unknowngreenwood_planks"
+  }
+}

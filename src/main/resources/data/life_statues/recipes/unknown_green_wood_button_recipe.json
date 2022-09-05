@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "life_statues:unknown_green_wood_planks"
+    }
+  ],
+  "result": {
+    "item": "life_statues:unknown_green_wood_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "life_statues:blocks/unknowngreenwood_planks",
+    "particle": "life_statues:blocks/unknowngreenwood_planks"
+  }
+}

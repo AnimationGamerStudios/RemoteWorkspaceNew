@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "life_statues:blocks/unknowngreenwood_log_side",
+    "particle": "life_statues:blocks/unknowngreenwood_log_side"
+  }
+}

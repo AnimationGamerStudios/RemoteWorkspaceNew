@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "life_statues:block/unknown_green_wood_slab"
+    },
+    "type=top": {
+      "model": "life_statues:block/unknown_green_wood_slab_top"
+    },
+    "type=double": {
+      "model": "life_statues:block/unknown_green_wood_slab_full"
+    }
+  }
+}
