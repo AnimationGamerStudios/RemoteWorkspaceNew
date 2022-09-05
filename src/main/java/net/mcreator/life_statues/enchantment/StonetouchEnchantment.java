@@ -3,6 +3,7 @@ package net.mcreator.life_statues.enchantment;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.util.DamageSource;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -39,14 +40,25 @@ public class StonetouchEnchantment extends LifeStatuesModElements.ModElement {
 
 		@Override
 		public int getMaxLevel() {
-			return 256;
+			return 5;
+		}
+
+		@Override
+		public int calcModifierDamage(int level, DamageSource source) {
+			return level * 1;
 		}
 
 		@Override
 		protected boolean canApplyTogether(Enchantment ench) {
 			if (ench == Enchantments.SHARPNESS)
 				return true;
-			if (ench == Enchantments.MENDING)
+			if (ench == Enchantments.SMITE)
+				return true;
+			if (ench == Enchantments.SWEEPING)
+				return true;
+			if (ench == Enchantments.LOOTING)
+				return true;
+			if (ench == Enchantments.KNOCKBACK)
 				return true;
 			return false;
 		}
