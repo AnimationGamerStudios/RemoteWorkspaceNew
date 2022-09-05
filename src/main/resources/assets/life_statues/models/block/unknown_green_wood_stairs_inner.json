@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "life_statues:blocks/unknowngreenwood_planks",
+    "top": "life_statues:blocks/unknowngreenwood_planks",
+    "side": "life_statues:blocks/unknowngreenwood_planks"
+  }
+}

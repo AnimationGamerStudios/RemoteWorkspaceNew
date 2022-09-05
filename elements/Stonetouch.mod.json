@@ -6,14 +6,23 @@
     "type": "WEAPON",
     "rarity": "RARE",
     "minLevel": 1,
-    "maxLevel": 256,
-    "damageModifier": 0,
+    "maxLevel": 5,
+    "damageModifier": 1,
     "compatibleEnchantments": [
       {
         "value": "SHARPNESS"
       },
       {
-        "value": "MENDING"
+        "value": "SMITE"
+      },
+      {
+        "value": "SWEEPING"
+      },
+      {
+        "value": "LOOTING"
+      },
+      {
+        "value": "KNOCKBACK"
       }
     ],
     "compatibleItems": [

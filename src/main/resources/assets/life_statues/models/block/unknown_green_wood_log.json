@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "life_statues:blocks/unknowngreenwood_log_top",
+    "up": "life_statues:blocks/unknowngreenwood_log_top",
+    "north": "life_statues:blocks/unknowngreenwood_log_side",
+    "east": "life_statues:blocks/unknowngreenwood_log_side",
+    "south": "life_statues:blocks/unknowngreenwood_log_side",
+    "west": "life_statues:blocks/unknowngreenwood_log_side",
+    "particle": "life_statues:blocks/unknowngreenwood_log_top"
+  }
+}

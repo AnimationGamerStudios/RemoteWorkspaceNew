@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:unknowngreenwood_log"
+    }
+  ],
+  "result": {
+    "item": "life_statues:unknown_green_wood_planks",
+    "count": 4
+  }
+}

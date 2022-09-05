@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "life_statues:unknown_green_wood_planks"
+    },
+    "1": {
+      "item": "life_statues:unknown_green_wood_planks"
+    },
+    "2": {
+      "item": "life_statues:unknown_green_wood_planks"
+    }
+  },
+  "result": {
+    "item": "life_statues:unknown_green_wood_slab",
+    "count": 6
+  }
+}

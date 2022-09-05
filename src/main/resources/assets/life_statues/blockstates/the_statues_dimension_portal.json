@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "life_statues:block/the_statues_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "life_statues:block/the_statues_dimension_portal_ns"
+    }
+  }
+}
